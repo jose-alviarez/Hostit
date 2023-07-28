@@ -1,0 +1,7 @@
+/* *degradado para la seccion black */
+@media screen and (min-width: 768px) {
+  .degraded {
+    background: linear-gradient(110deg, transparent 25%, black 25%);
+  }
+}
+/* *degradado para la seccion black-end */

@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply font-roboto;
+}
+
+.container-img:hover .img {
+  @apply bg-red;
+}
+
+.letter:hover .text-title {
+  @apply text-white;
+}
+
+.container-letter:hover .btn {
+  @apply bg-blue;
+}
+
+.container-letter:has(.btn:hover) .letter {
+  @apply cursor-pointer bg-blue text-white;
+}
+
+.container-letter:has(.btn:hover) .text-title {
+  @apply text-white;
+}
+
+@tailwind utilities;
